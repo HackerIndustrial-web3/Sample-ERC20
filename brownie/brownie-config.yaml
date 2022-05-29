@@ -1,0 +1,11 @@
+# config file for brownie
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.0.0
+  # - chainlink/contracts@0.8.0
+  - smartcontractkit/chainlink-brownie-contracts@0.4.1
+#the dotenv for all the settings
+dotenv: .env
+networks:
+  default: development
+wallets:
+  devKey: ${PRIVATE_KEY}
