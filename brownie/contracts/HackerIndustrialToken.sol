@@ -10,7 +10,7 @@ import "OpenZeppelin/openzeppelin-contracts@4.0.0/contracts/token/ERC20/ERC20.so
 
 contract HackerIndustrialToken is ERC20 {
     // wei value for the inital supply so supply = supply * 10**decimals
-    constructor(uint256 initialSupply) ERC20("HackerIndustrial Tokan", "HIT") {
+    constructor(uint256 initialSupply) ERC20("HackerIndustrial Token", "HIT") {
         _mint(msg.sender, initialSupply);
     }
 }

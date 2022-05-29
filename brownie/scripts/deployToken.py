@@ -22,6 +22,7 @@ def main():
         revert = True
     if revert is None:
         revert = False
+    print(f"running the deployment with network {network.show_active()} publishSource: {publish_source}")
     totalSupply = 1000000
     totalDecimals = 18
     initialSupply = totalSupply * 10 ** totalDecimals

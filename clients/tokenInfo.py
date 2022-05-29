@@ -2,10 +2,12 @@
 # Sample code for interacting with erc20 token with python
 
 
+
 from web3 import Web3
 
-
-contractAddress = "0x9561C133DD8580860B6b7E504bC5Aa500f0f06a7"
+# Running on matic network mainchain
+# https://polygonscan.com/address/0x36A3677be606E5EA7a5B052cef06e95972fEFe0B#code
+contractAddress = "0x36A3677be606E5EA7a5B052cef06e95972fEFe0B"
 abi = [
     {
         'inputs': [
